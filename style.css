@@ -1,24 +1,33 @@
+body {
+    width: 100vw;
+}
+
+.line {
+    display: block;
+}
+
 .list {
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     width: 40%;
+    min-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#pay {
-    background-color: rgb(238, 117, 95);
-    color: rgb(241, 246, 250);
-    width: 10%;
-    height: 40px;
-    font-size: 20px;
-    border: none;
+.button-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    min-width: 600px;
+    text-align: right;
 }
 
-#cart {
+.btn {
     background-color: rgb(238, 117, 95);
     color: rgb(241, 246, 250);
-    margin-left: 300px;
-    height: 40px;
     width: 150px;
+    height: 40px;
     font-size: 20px;
     border: none;
 }
@@ -36,7 +45,16 @@
 .list tr:nth-child(odd) {
     background-color: rgb(233, 231, 231);
     width: 80%;
+}
 
+.floatLeft {
+    float: left;
+    margin-left: 10%;
+}
+
+.floatRight {
+    float: right;
+    margin-right: 10%;
 }
 
 .first {
@@ -55,4 +73,8 @@
 
 .unit {
     text-align: center;
+}
+
+.icon-default {
+    color: #444444;
 }
