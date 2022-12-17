@@ -1,0 +1,58 @@
+.list {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    width: 40%;
+}
+
+#pay {
+    background-color: rgb(238, 117, 95);
+    color: rgb(241, 246, 250);
+    width: 10%;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+}
+
+#cart {
+    background-color: rgb(238, 117, 95);
+    color: rgb(241, 246, 250);
+    margin-left: 300px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    border: none;
+}
+
+#head {
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+
+.list tr:nth-child(even) {
+    background-color: rgb(197, 195, 195);
+    color: rgb(12, 12, 12);
+}
+
+.list tr:nth-child(odd) {
+    background-color: rgb(233, 231, 231);
+    width: 80%;
+
+}
+
+.first {
+    color: black;
+}
+
+#row1 {
+    background-color: rgb(97, 96, 96);
+    color: white;
+    text-align: end;
+}
+
+.price {
+    text-align: end;
+}
+
+.unit {
+    text-align: center;
+}
